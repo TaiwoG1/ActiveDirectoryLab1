@@ -69,4 +69,4 @@ A Windows 10 client was seamlessly integrated, confirming the success of the dep
 
 <br />
 
-For a detailed breakdown of the technical implementation, specific configurations, and in-depth analysis, please refer to the [Full Project Report (PDF/Docx/Link)] <br />
+For a detailed breakdown of the technical implementation, specific configurations, and in-depth analysis, please refer to the [Full Project Report] <br />
