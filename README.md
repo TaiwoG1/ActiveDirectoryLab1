@@ -64,9 +64,9 @@ A Windows 10 client was seamlessly integrated, confirming the success of the dep
 
 - <b2> Operating Systems: Windows Server (with Desktop Experience), Windows 10 </b2>
 - <b2> Virtualization Platform: VirtualBox </b2>
-- <b2> Core Services: Active Directory Domain Services (ADDS), DNS, DHCP, Routing and Remote Access Service (RRAS) / Network Address Translation (NAT) </b2>
+- <b2> Core Services: Active Directory Domain Services (ADDS), DNS, DHCP, Routing and Remote Access Service (RRAS)/Network Address Translation (NAT) </b2>
 - <b2> Scripting: PowerShell </b2>
 
 <br />
 
-For a detailed breakdown of the technical implementation, specific configurations, and in-depth analysis, please refer to the [Full Project Report] <br />
+For a detailed breakdown of the technical implementation, specific configurations, and in-depth analysis, please refer to the [Full Project Report](https://github.com/TaiwoG1/ActiveDirectoryLab1/blob/main/Active%20Directory%20and%20Internal%20Network%20Full%20Report.pdf) <br />
