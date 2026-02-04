@@ -23,24 +23,46 @@ The project's foundation comprised a Windows Server Domain Controller (DC), meti
 
 - <b2> Active Directory Domain Services (ADDS): Providing core domain services, including DNS resolution for mydomain.com. </b2>
   <p align="center">
-  AD Users & Computers: <br/>
-  <img src="https:" height="80%" width="80%" alt="AD Users & Computers"/>
+  <img width="377" height="253" alt="Users and Computers Users" src="https://github.com/user-attachments/assets/979e48bc-fb17-4d27-b8af-4ae913cf7557" /> <br />
+  AD Users & Computers:
   <br />
   </p>
-- <b2> Dynamic Host Configuration Protocol (DHCP): Dynamically assigning IP addresses and network configurations to client machines on the internal segment. </b2>
   <p align="center">
-  DHCP Management Console of configured scope and options: <br/>
-  <img src="https:" height="80%" width="80%" alt="DHCP Management Console of configured scope and options"/>
+  
+  <img width="378" height="254" alt="Users and Computers Admin" src="https://github.com/user-attachments/assets/b4fb6fe9-4fc4-44ce-9e90-34e04e1d29f4" />
   <br />
+  AD Admins & Computers: <br/>
   </p>
+
+
+- <b2> Dynamic Host Configuration Protocol (DHCP): Dynamically assigning IP addresses and network configurations to client machines on the internal segment. </b2>
+
+  <p align="center"> 
+  <img width="308" height="269" alt="client ip address dynamically allocated" src="https://github.com/user-attachments/assets/e78c0281-e378-4e17-b5b0-b38085a22fa1" />
+  <br />
+  Dynamic Allocation of Client IP Address <br/>
+  </p>
+  
+  <p align="center">  
+  <img width="398" height="228" alt="DHCP" src="https://github.com/user-attachments/assets/0c137e53-ddc0-46ac-b26b-1eadf6dc0229" />
+  <br />
+  DHCP Management Console of configured scope and options <br/>
+  </p>
+
 - <b2> Routing and Remote Access Service (RRAS) / NAT: Enabling secure internet connectivity for client machines by routing their traffic through the DC's NAT service. </b2>
   <p align="center">
-  RRAS Console showing the NAT configuration or enabled interfaces: <br/>
-  <img src="https:" height="80%" width="80%" alt="RRAS Console showing the NAT configuration or enabled interfaces"/>
+
+  <img width="960" height="495" alt="Configured RAS_NAT" src="https://github.com/user-attachments/assets/4b09b48e-4853-4d9f-8202-23757b5923ed" />
   <br />
   </p>
 <br />
+<p align="center">
 
+  <img width="344" height="232" alt="RAS_NAT" src="https://github.com/user-attachments/assets/85bcbe47-2bb1-4a3f-a346-d5127c0701fc" />
+  <br />
+    RRAS Console showing the NAT configuration or enabled interfaces: <br/>
+  </p>
+<br />
 
 
 <h2>Client Integration & Validation</h2>
@@ -51,11 +73,17 @@ A Windows 10 client was seamlessly integrated, confirming the success of the dep
 - <b2> The client successfully obtained its IP address from the DC's DHCP server. </b2>
 - <b2> Internet connectivity was verified from the client, routing through the DC. </b2>
 - <b2> The client PC was successfully joined to mydomain.com, allowing for domain user logins. </b2>
-  <p align="center">
-  Client PC successfully logged in as a domain user: <br/>
-  <img src="https:" height="80%" width="80%" alt="Client PC successfully logged in as a domain user"/>
+
+<p align="center">  
+  <img width="604" height="306" alt="Address Lease of client for ip addr in mydomain" src="https://github.com/user-attachments/assets/935d0a4f-0531-4152-8cac-70f2525471b2" />
   <br />
+    Client PC successfully logged in as a domain user <br/>
   </p>
+  <p align="center">  
+  <img width="324" height="229" alt="client ip address 2" src="https://github.com/user-attachments/assets/fda95210-e79e-4d93-a9d1-9cedc00f4094" />
+  <br />
+    Client PC configurations <br/>
+  </p>  
 <br />
 
 
